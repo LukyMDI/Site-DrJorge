@@ -24,7 +24,7 @@ body {
 }
 
 #bg-1 {
-  background-image: url("/IMAGE/bg-1.png");
+  background-image: url("/IMAGE/bg-1.webp");
   width: 100vw;
   height: 200vh;
   background-size: cover;
@@ -65,7 +65,7 @@ body {
 }
 
 #bg-2 {
-  background-image: url("/IMAGE/bg-2.png");
+  background-image: url("/IMAGE/bg-2.webp");
   width: 100vw;
   height: 200vh;
   background-size: cover;
@@ -145,7 +145,7 @@ body {
 }
 
 #bg-3 {
-  background-image: url("/IMAGE/bg-3.png");
+  background-image: url("/IMAGE/bg-3.webp");
   width: 100vw;
   height: 300vh;
   background-size: cover;
@@ -172,4 +172,48 @@ body {
   color: white;
   font-size: max(25px, 2.3vw);
   text-align: center;
+}
+#bg-3 #formulario {
+  width: 400px;
+  align-self: center;
+  position: relative;
+  top: 100px;
+}
+#bg-3 #formulario #form #title-form {
+  background-color: #0b81c3;
+  text-align: center;
+}
+#bg-3 #formulario #form #title-form h1 {
+  color: white;
+  font-size: 19px;
+  padding: 5px;
+}
+#bg-3 #formulario #form #corpo-form {
+  background-color: #0e4564;
+}
+#bg-3 #formulario #form #corpo-form input {
+  padding: 5px;
+  width: 300px;
+}
+#bg-3 #formulario #form #corpo-form input:focus {
+  outline: none;
+}
+#bg-3 #formulario #form form {
+  padding: 20px 10px 20px 10px;
+  align-items: center;
+}
+#bg-3 #formulario #form form #texto-form-completo {
+  display: flex;
+  flex-direction: column;
+}
+#bg-3 #formulario #form form #texto-form-completo div {
+  display: flex;
+  justify-content: space-between;
+}
+#bg-3 #formulario #form form #texto-form-completo div span, #bg-3 #formulario #form form #texto-form-completo div input {
+  margin-bottom: 10px;
+}
+#bg-3 #formulario #form form button {
+  width: 80px;
+  padding: 5px;
 }/*# sourceMappingURL=style.css.map */
