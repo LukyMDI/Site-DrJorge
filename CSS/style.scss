@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@ html, body {
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-display: swap;
 }
 
 .container {
@@ -174,11 +176,17 @@ body {
         align-self: center;
         position: relative;
         bottom: 50px;
+        left: 55px;
 
         img:nth-child(2n+1) {
             position: relative;
             bottom: 450px;
             margin: 0px -120px 0px -120px;
+            width: 36%;
+        }
+
+        img:nth-child(2) {
+            width: 80%;
         }
     }
 
@@ -216,15 +224,6 @@ body {
 
             #corpo-form {
                 background-color: #0e4564;
-
-                input {
-                    padding: 5px;
-                    width: 300px;
-
-                    &:focus {
-                        outline: none;
-                    }
-                }
             }
 
             form {
@@ -237,9 +236,21 @@ body {
 
                     div {
                         display: flex;
+                        flex-direction: column;
                         justify-content: space-between;
-                        span, input {
+
+                        span {
+                            color: white;
+                            margin-bottom: 3px;
+                        }
+                        
+                        input {
                             margin-bottom: 10px;
+                            padding: 5px;
+
+                            &:focus {
+                                outline: none;
+                            }
                         }
                     }
                 }
@@ -247,6 +258,20 @@ body {
                 button {
                     width: 80px;
                     padding: 5px;
+                    background-color: #0b81c3;
+                    color: white;
+                    margin-top: 10px;
+                }
+            }
+
+            #checkbox {
+                display: flex;
+                margin-top: 10px;
+                align-items: center;
+
+                span {
+                    font-size: 0.7em;
+                    margin-left: 5px;
                 }
             }
         }

@@ -14,6 +14,7 @@ html, body {
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-display: swap;
 }
 
 .container {
@@ -155,11 +156,16 @@ body {
   align-self: center;
   position: relative;
   bottom: 50px;
+  left: 55px;
 }
 #bg-3 #imagens-bg3 img:nth-child(2n+1) {
   position: relative;
   bottom: 450px;
   margin: 0px -120px 0px -120px;
+  width: 36%;
+}
+#bg-3 #imagens-bg3 img:nth-child(2) {
+  width: 80%;
 }
 #bg-3 #texto-1-bg3 {
   width: 57%;
@@ -191,13 +197,6 @@ body {
 #bg-3 #formulario #form #corpo-form {
   background-color: #0e4564;
 }
-#bg-3 #formulario #form #corpo-form input {
-  padding: 5px;
-  width: 300px;
-}
-#bg-3 #formulario #form #corpo-form input:focus {
-  outline: none;
-}
 #bg-3 #formulario #form form {
   padding: 20px 10px 20px 10px;
   align-items: center;
@@ -208,12 +207,33 @@ body {
 }
 #bg-3 #formulario #form form #texto-form-completo div {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
-#bg-3 #formulario #form form #texto-form-completo div span, #bg-3 #formulario #form form #texto-form-completo div input {
+#bg-3 #formulario #form form #texto-form-completo div span {
+  color: white;
+  margin-bottom: 3px;
+}
+#bg-3 #formulario #form form #texto-form-completo div input {
   margin-bottom: 10px;
+  padding: 5px;
+}
+#bg-3 #formulario #form form #texto-form-completo div input:focus {
+  outline: none;
 }
 #bg-3 #formulario #form form button {
   width: 80px;
   padding: 5px;
+  background-color: #0b81c3;
+  color: white;
+  margin-top: 10px;
+}
+#bg-3 #formulario #form #checkbox {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+#bg-3 #formulario #form #checkbox span {
+  font-size: 0.7em;
+  margin-left: 5px;
 }/*# sourceMappingURL=style.css.map */
