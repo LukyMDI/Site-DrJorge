@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+html, body {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+#bg-1 {
+  background-image: url("/IMAGE/bg-1.png");
+  width: 100vw;
+  height: 200vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bg-1 #texto-1 {
+  color: white;
+  align-items: center;
+  position: relative;
+  top: 450px;
+  right: 200px;
+}
+#bg-1 #texto-1 span:nth-child(1) {
+  font-size: max(41px, 3vw);
+  font-weight: 800;
+  word-spacing: -7px;
+}
+#bg-1 #texto-1 #ret-sombreado {
+  background-color: #0e4564;
+  width: max(300px, 22%);
+}
+#bg-1 #texto-1 #ret-sombreado p {
+  font-size: max(18px, 1.3vw);
+  padding: 5px;
+  text-align: center;
+}
+#bg-1 #texto-1 span:nth-child(3) {
+  font-size: clamp(120px, 9vw, 200px);
+  font-weight: 800;
+  letter-spacing: 0px;
+  position: relative;
+  bottom: 20px;
+}
+#bg-1 #texto-1 img {
+  width: max(230px, 17%);
+  position: relative;
+  bottom: 30px;
+}
+
+#bg-2 {
+  background-image: url("/IMAGE/bg-2.png");
+  width: 100vw;
+  height: 200vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bg-2 #box-1 {
+  align-self: center;
+  position: relative;
+  bottom: 200px;
+  background: rgb(0, 91, 255);
+  background: linear-gradient(0deg, rgb(0, 91, 255) 30%, rgb(0, 176, 255) 100%);
+  width: 70%;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+#bg-2 #box-1 p {
+  font-size: max(13px, 1.1vw);
+  color: white;
+}
+#bg-2 #texto-1-bg2 {
+  position: relative;
+  bottom: 50px;
+  align-self: center;
+  width: 60%;
+}
+#bg-2 #texto-1-bg2 p {
+  font-size: max(15px, 1.3vw);
+  color: #0a236b;
+}
+#bg-2 #texto-1-bg2 p b {
+  font-size: max(15px, 1.3vw);
+}
+#bg-2 #box-info {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 140px;
+  padding: 0px 100px 0px 100px;
+}
+#bg-2 .box-info-class {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#bg-2 .box-info-class img {
+  width: 200px;
+  border-radius: 40px;
+}
+#bg-2 .texto-box-info {
+  width: 200px;
+  background: rgb(26, 66, 137);
+  background: linear-gradient(152deg, rgb(26, 66, 137) 30%, rgb(64, 106, 180) 100%);
+  margin-bottom: 30px;
+  padding: 5px;
+  border-radius: 30px;
+  border: 3px solid grey;
+  text-align: center;
+}
+#bg-2 .texto-box-info span {
+  color: white;
+  font-weight: 800;
+}
+#bg-2 #texto-2-bg2 {
+  position: relative;
+  top: 330px;
+  width: 50%;
+  align-self: center;
+}
+#bg-2 #texto-2-bg2 p {
+  font-size: max(15px, 1.3vw);
+  text-align: center;
+  color: #0a236b;
+}
+#bg-2 #texto-2-bg2 p b {
+  font-size: max(15px, 1.3vw);
+}
+
+#bg-3 {
+  background-image: url("/IMAGE/bg-3.png");
+  width: 100vw;
+  height: 300vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bg-3 #imagens-bg3 {
+  align-self: center;
+  position: relative;
+  bottom: 50px;
+}
+#bg-3 #imagens-bg3 img:nth-child(2n+1) {
+  position: relative;
+  bottom: 450px;
+  margin: 0px -120px 0px -120px;
+}
+#bg-3 #texto-1-bg3 {
+  width: 57%;
+  align-self: center;
+  position: relative;
+  bottom: 180px;
+  right: 30px;
+}
+#bg-3 #texto-1-bg3 p {
+  color: white;
+  font-size: max(25px, 2.3vw);
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
