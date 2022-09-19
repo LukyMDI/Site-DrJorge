@@ -221,12 +221,29 @@ body {
 #bg-3 #formulario #form form #texto-form-completo div input:focus {
   outline: none;
 }
+#bg-3 #formulario #form form #texto-form-completo div textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+  resize: none;
+  height: 50px;
+  font-family: "Montserrate", sans-serif;
+}
+#bg-3 #formulario #form form #texto-form-completo div textarea::-webkit-scrollbar {
+  display: none;
+}
+#bg-3 #formulario #form form #texto-form-completo div textarea:focus {
+  outline: none;
+}
 #bg-3 #formulario #form form button {
   width: 80px;
   padding: 5px;
   background-color: #0b81c3;
   color: white;
   margin-top: 10px;
+}
+#bg-3 #formulario #form form button:hover {
+  cursor: pointer;
+  background-color: #276d96;
 }
 #bg-3 #formulario #form #checkbox {
   display: flex;
