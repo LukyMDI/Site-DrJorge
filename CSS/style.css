@@ -45,7 +45,7 @@ body {
 }
 #bg-1 #texto-1 #ret-sombreado {
   background-color: #0e4564;
-  width: max(300px, 22%);
+  padding: 0px 5px 0px 5px;
 }
 #bg-1 #texto-1 #ret-sombreado p {
   font-size: max(18px, 1.3vw);
@@ -251,6 +251,97 @@ body {
   align-items: center;
 }
 #bg-3 #formulario #form #checkbox span {
+  color: white;
   font-size: 0.7em;
   margin-left: 5px;
+}
+#bg-3 #parte-2-bg3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 400px;
+  align-items: center;
+}
+#bg-3 #parte-2-bg3 img {
+  margin-bottom: 20px;
+}
+#bg-3 #parte-2-bg3 img:nth-child(1) {
+  width: 35%;
+}
+#bg-3 #parte-2-bg3 img:nth-child(3) {
+  width: 60%;
+}
+#bg-3 #parte-2-bg3 img:nth-child(4) {
+  width: 25%;
+}
+#bg-3 #parte-2-bg3 #retangulo-parte-2-bg3 {
+  background-color: #0e4564;
+  padding: 5px 40px 5px 40px;
+  margin-bottom: 40px;
+}
+#bg-3 #parte-2-bg3 #retangulo-parte-2-bg3 span {
+  font-size: 1.4vw;
+  color: white;
+}
+
+#bg-4 {
+  background-image: url("/IMAGE/bg-4.webp");
+  width: 100vw;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#bg-4 #texto-1-bg4 {
+  color: white;
+  align-items: center;
+  margin-top: 40px;
+}
+#bg-4 #texto-1-bg4 span:nth-child(1) {
+  font-size: max(35px, 2.8vw);
+  font-weight: 800;
+  word-spacing: -7px;
+}
+#bg-4 #texto-1-bg4 #ret-sombreado-bg4 {
+  background-color: #c3287c;
+  padding: 0px 5px 0px 5px;
+}
+#bg-4 #texto-1-bg4 #ret-sombreado-bg4 p {
+  font-size: max(15px, 1.2vw);
+  padding: 5px;
+  text-align: center;
+}
+#bg-4 #texto-1-bg4 span:nth-child(3) {
+  font-size: clamp(110px, 6vw, 180px);
+  font-weight: 800;
+  letter-spacing: 0px;
+  position: relative;
+  bottom: 20px;
+}
+#bg-4 #texto-2-bg4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 70px;
+}
+#bg-4 #texto-2-bg4 p {
+  color: #0e4564;
+  font-size: max(16px, 1.5em);
+}
+#bg-4 #texto-2-bg4 p:nth-child(1) {
+  font-weight: bold;
+}
+#bg-4 #imagens-bg4 {
+  display: flex;
+  position: relative;
+  bottom: 40px;
+  justify-content: center;
+}
+#bg-4 #imagens-bg4 img:nth-child(1) {
+  width: 8%;
+}
+#bg-4 #imagens-bg4 img:nth-child(2) {
+  width: 9%;
+  height: 80%;
+  margin-left: 50px;
 }/*# sourceMappingURL=style.css.map */

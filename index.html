@@ -85,31 +85,60 @@
                                 <form action="/PHP/formulario.php" method="POST" class="container">
                                     <div id="texto-form-completo">
                                         <div id="form-nome">
-                                            <input type="text" name="nome" class="form-candidatura" placeholder="Nome">
+                                            <input type="text" name="nome" class="form-candidatura" placeholder="Nome" id="input-nome" required>
                                         </div>
                                         <div id="form-telefone">
-                                            <input type="text" name="telefone" class="form-candidatura" placeholder="Telefone">
+                                            <input type="text" name="telefone" class="form-candidatura" placeholder="Telefone" id="input-telefone" required>
                                         </div>
                                         <div id="form-email">
-                                            <input type="email" name="email" class="form-candidatura" placeholder="E-mail">
+                                            <input type="email" name="email" class="form-candidatura" placeholder="E-mail" id="input-email" required>
                                         </div>
                                         <div id="form-sugestao">
-                                            <span>O que você quer ver na minha candidatura: </span><textarea name="sugestao" class="form-candidatura"></textarea>
+                                            <span>O que você quer ver na minha candidatura: </span>
+                                            <textarea name="sugestao" class="form-candidatura"></textarea>
                                         </div>
                                     </div>
-                                    <button type="submit">ENVIAR</button>
+                                    <button type="submit"">ENVIAR</button>
+                                    <div id="checkbox">
+                                        <input type="checkbox" name="" id="check" required><span>Eu aceito os termos e condições de uso da política de privacidade</span>
+                                    </div>
                                 </form>
                             </div>
-                            <div id="checkbox">
-                                <input type="checkbox" name="" id="check"><span>Eu aceito os termos e condições de uso da política de privacidade</span>
-                            </div>
                         </div>
+                    </div>
+                    <div id="parte-2-bg3">
+                        <img src="/IMAGE/Nos-siga.webp" alt="">
+                        <div id="retangulo-parte-2-bg3">
+                            <span>Instagram - Facebook - Twitter - Youtube</span>
+                        </div>
+                        <img src="/IMAGE/entre-em-nosso-grupo.webp" alt="">
+                        <img src="/IMAGE/icon-whats.webp" alt="">
                     </div>
                 </div>
             </div>
         </main>
         <footer>
-            
+            <div class="container">
+                <div id="bg-4" class="container">
+                    <div id="texto-1-bg4" class="container">
+                        <span>Dr. Jorge Silva</span>
+                        <div id="ret-sombreado-bg4">
+                            <p>Candidato a Deputado Federal</p>
+                        </div>
+                        <span>1077</span>
+                    </div>
+                    <div id="texto-2-bg4">
+                        <p>Políticas de Privacidade</p>
+                        <p>Dr. Jorge Silva 2022 | Todos os Direitos Reservados</p>
+                        <p>Jurídico Eleitoral - CAMPANHA DR JORGE SILVA - PROS</p>
+                        <p>CNPJ CANDIDATO :47.423.111/0001-74</p>
+                    </div>
+                    <div id="imagens-bg4">
+                        <img src="/IMAGE/logo-oficial.webp" alt="">
+                        <img src="/IMAGE/republicanos.webp" alt="">
+                    </div>
+                </div>
+            </div>
         </footer>
     </div>
     <script src="/JAVASCRIPT/script.js"></script>
