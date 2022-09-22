@@ -1,6 +1,299 @@
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
+@media (max-width: 1146px) {
+  #bg-2 #box-info {
+    position: relative;
+    top: 0px;
+  }
+  #bg-2 #texto-2-bg2 {
+    position: relative;
+    top: 180px;
+  }
+  #bg-3 #formulario {
+    top: 0px;
+  }
+  #bg-3 #parte-2-bg3 {
+    top: 200px;
+  }
+  #bg-4 #texto-1-bg4 {
+    position: relative;
+    bottom: 20px;
+  }
+}
+@media (max-width: 980px) {
+  #bg-2 #box-info img {
+    width: 150px;
+  }
+  #bg-2 .texto-box-info {
+    width: 150px;
+  }
+  #bg-2 .texto-box-info span {
+    font-size: 0.7em;
+  }
+}
+@media (max-width: 870px) {
   #bg-1 #texto-1 {
-    right: 100px;
-    top: 400px;
+    top: 195px;
+  }
+  #bg-1 #imagem-doutor {
+    left: 300px;
+  }
+  #bg-2 #texto-2-bg2 {
+    top: 100px;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(1) {
+    position: relative;
+    left: 30px;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(3) {
+    position: relative;
+    right: 50px;
+  }
+  #bg-3 #texto-1-bg3 {
+    left: 17px;
+  }
+}
+@media (max-width: 772px) {
+  #bg-2 #box-1 {
+    bottom: 300px;
+  }
+  #bg-2 #texto-1-bg2 {
+    bottom: 200px;
+  }
+  #bg-2 #box-info {
+    top: -100px;
+    padding: 0px 50px 0px 50px;
+  }
+  #bg-2 #box-info img {
+    width: 150px;
+  }
+  #bg-2 #texto-2-bg2 {
+    position: relative;
+    top: 50px;
+  }
+  #bg-3 #imagens-bg3 {
+    left: 210px;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(1) {
+    position: relative;
+    left: 30px;
+    width: 20%;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(2) {
+    width: 70%;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(3) {
+    position: relative;
+    right: 50px;
+    width: 20%;
+  }
+}
+@media (max-width: 706px) {
+  #bg-1 {
+    background-image: url("/IMAGE/bg-1-mobile.webp");
+  }
+  #bg-1 #imagem-doutor {
+    position: relative;
+    left: 130px;
+    bottom: 250px;
+  }
+  #bg-1 #texto-1 {
+    top: 550px;
+    left: 25px;
+    z-index: 2;
+  }
+  #bg-1 #texto-1 #eu-fecho {
+    display: none;
+  }
+  #bg-2 {
+    height: 300vh;
+  }
+  #bg-2 #texto-1-bg2 {
+    bottom: 250px;
+  }
+  #bg-2 #box-info {
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 0;
+    align-items: center;
+    left: 110px;
+    top: -200px;
+  }
+  #bg-2 #box-info img {
+    width: 180px;
+  }
+  #bg-2 #box-info .texto-box-info {
+    font-size: 1.2em;
+    width: 170px;
+  }
+  #bg-2 #texto-2-bg2 {
+    width: 80%;
+    top: 200px;
+  }
+  #bg-2 #texto-2-bg2 p {
+    font-size: max(17px, 3vw);
+    text-align: center;
+    color: #0a236b;
+  }
+  #bg-2 #texto-2-bg2 p b {
+    font-size: max(17px, 3vw);
+  }
+  #bg-3 #imagens-bg3 {
+    left: 210px;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(1) {
+    position: relative;
+    left: 0px;
+    bottom: 350px;
+    width: 20%;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(2) {
+    width: 70%;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(3) {
+    position: relative;
+    right: 10px;
+    bottom: 360px;
+    width: 20%;
+  }
+  #bg-3 #parte-2-bg3 img {
+    margin-bottom: 20px;
+  }
+  #bg-3 #parte-2-bg3 img:nth-child(1) {
+    width: 75%;
+  }
+  #bg-3 #parte-2-bg3 img:nth-child(3) {
+    width: 70%;
+  }
+  #bg-3 #parte-2-bg3 a img {
+    width: 70%;
+    position: relative;
+    left: 50px;
+  }
+  #bg-3 #parte-2-bg3 #retangulo-parte-2-bg3 {
+    background-color: #0e4564;
+    padding: 5px 40px 5px 40px;
+    margin-bottom: 40px;
+  }
+  #bg-3 #parte-2-bg3 #retangulo-parte-2-bg3 span {
+    font-size: 2vw;
+    color: white;
+  }
+}
+@media (max-width: 548px) {
+  #bg-1 #imagem-doutor {
+    left: 80px;
+    width: 80%;
+    bottom: 170px;
+  }
+  #bg-2 #texto-1-bg2 {
+    width: 90%;
+  }
+  #bg-2 #texto-2-bg2 {
+    top: 70px;
+    width: 90%;
+  }
+  #bg-3 #formulario {
+    top: 100px;
+  }
+  #bg-3 #parte-2-bg3 {
+    top: 300px;
+  }
+  #bg-4 #texto-2-bg4 {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 512px) {
+  #bg-2 {
+    height: 450vh;
+  }
+  #bg-2 #box-info {
+    left: 70px;
+  }
+  #bg-2 #box-info img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  #bg-2 #box-info .texto-box-info {
+    width: 250px;
+  }
+  #bg-2 #box-info .texto-box-info span {
+    font-size: 1.2em;
+  }
+  #bg-2 #texto-2-bg2 {
+    top: 0px;
+  }
+  #bg-4 #texto-2-bg4 {
+    font-size: 0.7em;
+  }
+  #bg-4 #imagens-bg4 img:nth-child(1) {
+    width: 13%;
+  }
+  #bg-4 #imagens-bg4 img:nth-child(2) {
+    width: 14%;
+  }
+}
+@media (max-width: 454px) {
+  #bg-1 #texto-1 {
+    left: 0px;
+  }
+  #bg-1 #imagem-doutor {
+    width: 90%;
+    left: 20px;
+  }
+  #bg-2 #texto-2-bg2 {
+    top: -130px;
+  }
+  #bg-3 #texto-1-bg3 {
+    width: 80%;
+    position: relative;
+    left: 0px;
+    top: 20px;
+  }
+  #bg-3 #texto-1-bg3 p {
+    font-size: max(18px, 2vw);
+  }
+  #bg-3 #imagens-bg3 {
+    left: 210px;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(1) {
+    position: relative;
+    left: -30px;
+    bottom: 150px;
+    width: 20%;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(2) {
+    width: 70%;
+    position: relative;
+    top: 100px;
+  }
+  #bg-3 #imagens-bg3 img:nth-child(3) {
+    position: relative;
+    right: -10px;
+    bottom: 160px;
+    width: 20%;
+  }
+  #bg-3 #formulario {
+    top: 280px;
+  }
+  #bg-3 #parte-2-bg3 {
+    top: 500px;
+  }
+  #bg-3 #parte-2-bg3 #retangulo-parte-2-bg3 span {
+    font-size: 2.5vw;
+    color: white;
+  }
+  #bg-4 #texto-2-bg4 p {
+    font-size: 1.4em;
+  }
+}
+@media (max-width: 388px) {
+  #bg-2 #texto-2-bg2 {
+    top: -200px;
+  }
+  #bg-3 #formulario {
+    width: 80%;
+    top: 350px;
+  }
+  #bg-4 #texto-2-bg4 {
+    font-size: 0.6em;
   }
 }/*# sourceMappingURL=responsive.css.map */
