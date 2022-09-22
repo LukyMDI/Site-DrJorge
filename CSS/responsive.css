@@ -87,7 +87,7 @@
   }
 }
 @media (max-width: 706px) {
-  #bg-1 {
+  #bg-1 #bg-1 {
     background-image: url("/IMAGE/bg-1-mobile.webp");
   }
   #bg-1 #imagem-doutor {

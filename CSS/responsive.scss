@@ -1,5 +1,4 @@
 @media(max-width: 1146px) {
-
     #bg-2 {
         #box-info {
             position: relative;
@@ -135,8 +134,10 @@
 
 @media(max-width: 706px) {
     #bg-1 {
-        background-image: url("/IMAGE/bg-1-mobile.webp");
-
+        #bg-1 {
+            background-image: url("/IMAGE/bg-1-mobile.webp");
+        }
+        
         #imagem-doutor {
             position: relative;
             left: 130px;
